@@ -5,43 +5,49 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>LIBENSON | OBRA </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <h1>GUILLERMO LIBENSON</h1>
-        <img src="imagenes/179928597_102617811989478_6114190192711424489_n.jpg" alt="Guillermo.LIbenson">
-        <nav>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="biografia.html">BIOGRAFIA</a></li>
-                <li><a href="anecdotas.html">ANECDOTAS</a></li>
-                <li><a href="fotografia.html">FOTOGRAFIA</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-    
-    </header>
-
-    <main>
+    <header class="cabecera">
+        <div class="contenedor">
+         <nav class="navegacion">
+             <ul class="lista_navegacion">
+                 <li><a class="lista_enlace" href="index.html">INICIO</a></li>
+                 <li><a class="lista_enlace" href="biografia.html">BIOGRAFIA</a></li>
+                 <li><a class="lista_enlace" href="anecdotas.html">ANECDOTAS</a></li>
+                 <li><a class="lista_enlace" href="fotografia.html">FOTOGRAFIA</a></li>
+                 <li><a class="lista_enlace" href="contacto.html">CONTACTO</a></li>
+             </ul>
+         </nav>
+        </div>
+     
+     </header>
+ 
+     <main>
+        <section class="hero">
+            <h1 class="tituloprincipal">GUILLERMO LIBENSON</h1>
+        </section>
         <section>
-            <h1>CUADERNO 1</h1>
+            <h1 class="titulo_cuaderno">CUADERNO 1</h1>
             
-            <div>
+            <div class="texto_cuaderno">
                 <h3>27/10/99</h3>
                 <p>Nace un bebé, varón, de madre sidosa por drogas, padre (-)(?). Gran tensión en la sala. Los médicos parecemos extraterrestres, con equipos descartables, celestes, anteojos protectores, todos los recaudos para enfrentar la resultante de un fracaso globalizado. A la médica obstetra se le olvidó colocarse las botas, exponiendo sus diez dedos (cinco de cada pie). Se lo advierto. Stress. El bebé se llama Yumbel (arcoiris) y su hermana mayor Leylen (pequeña brisa). El padre se jacta de su origen mapuche. La mamá es gringa (por aspecto y apellido). Todo es un misterio.</p>
             </div>
-            <div>
+            <div class="texto_cuaderno">
                 <h3>2/11/99</h3>
                 <p>¡Hola Dr.! Jadeando, irrumpe una mamá en el consultorio, ¿se acuerda de mi hijo? Yo soy Cárdenas y él tiene seis años. Usted lo atendió al año por infecciones urinarias en Las Flores. Sigue jadeando. -Siéntese Sra. Le sirvo agua. -No gracias, responde. Lo que pasa es que estoy encantada de verlo. ¿Está bien? -Si Sra. le respondo. En cualquier momento le traigo al nene para que lo vea. Estoy emocionada de verlo. Sigue jadeando. Y percibo que una lágrima se le escapa por la mejilla. Agradeciendo se retira, quedándome con un dejo de alegría y sin sabor.</p>
             </div>
-            <div>
+            <div class="texto_cuaderno">
                 <h3>27/11/99</h3>
                 <p>El 27/11/99 atendí un parto, naciendo el bebe en apnea y falleciendo a los 15 ́. Un caso raro, de colapso de ambos pulmones intraútero. Veremos si la necro aclara algo. Al dolor de un bebé muerto, se aserció la brutal agresión del partero hacia mí, haciéndome responsable de lo ocurrido. Lo derroté en la discusión médica, pero me sentí morir dos veces.</p>
             </div> 
-            <div>
+            <div class="texto_cuaderno">
                 <h3>MAYO - JUNIO 2000</h3>
                 <h4>Historias de HOMOVIDENS</h4>
                 <ul>
@@ -62,18 +68,20 @@
         </section>
     </main>
 
-    <footer>
-        <h2>Vida y Obra del Dr. Guillermo Pablo Libenson</h2>
-        
-        <h3>Sigannos en nuestras Redes!</h3>
-       <li>
-            <a href="https://www.instagram.com/dr.libenson_vidayobra/" target="_blank" class="enlaces">Instagram</a>
-        </li> 
-        <li>  
-            <a href="https://www.facebook.com/guillermo.libenson" target="_blank" class="enlaces">Facebook</a>
-        </li> 
-        <h3>Derechos reservados.</h3>
-
+    <<footer class="pie">
+        <h2 class="titulopie">Vida y Obra del Dr. Guillermo Pablo Libenson</h2>
+        <div class="redes">
+            <h3>Sigannos en nuestras Redes!</h3>
+            <ul>
+                <li>
+                    <a class="enlacespie" href="https://www.instagram.com/dr.libenson_vidayobra/" target="_blank">Instagram</a>
+                </li> 
+                <li>  
+                    <a class="enlacespie" href="https://www.facebook.com/guillermo.libenson" target="_blank">Facebook</a>
+                </li> 
+            </ul>
+        </div>
+        <h3 class="socalo">Derechos reservados. Pagina realizada por Sabrina Gianni.</h3>
     </footer>
    
 </body>

@@ -5,41 +5,82 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>LIBENSON | OBRA </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+    <!-- Vinculacion de CSS - Forma Correcta y Optima -->
     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body> 
-    <header>
-        <h1 id="tituloprincipal">GUILLERMO LIBENSON</h1>
-        <img src="imagenes/179928597_102617811989478_6114190192711424489_n.jpg" alt="Guillermo.LIbenson">
-    
-        <nav>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="biografia.html">BIOGRAFIA</a></li>
-                <li><a href="anecdotas.html">ANECDOTAS</a></li>
-                <li><a href="fotografia.html">FOTOGRAFIA</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
+    <header class="cabecera">
+       <div class="contenedor">
+        <nav class="navegacion">
+            <ul class="lista_navegacion">
+                <li><a class="lista_enlace" href="index.html">INICIO</a></li>
+                <li><a class="lista_enlace" href="biografia.html">BIOGRAFIA</a></li>
+                <li><a class="lista_enlace" href="anecdotas.html">ANECDOTAS</a></li>
+                <li><a class="lista_enlace" href="fotografia.html">FOTOGRAFIA</a></li>
+                <li><a class="lista_enlace" href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
+       </div>
     
     </header>
 
-    <main></main>
+    <main>
+        <section class="hero">
+           <h1 class="tituloprincipal">GUILLERMO LIBENSON</h1>
+        </section>
+        <section class="main-seccion">
+            <div class="contenedor">
+                <div class="contenido">
+                    <h2 class="tituloBanner1">Bienvenidos</h2>
+                    <p class="parrafoBanner1">Los invitamos a descubrir y disfrutar la obra de Guillermo</p>
+                </div>
+            </div>
+        </section>
+        <section> <!-- Seccion 1 -->
+            <h2 class="comienzo">Noticias Destacadas</h2>
+            <div class="articulos">
+                <div>
+                    <h2>Titulo Noticia 1</h2>
+                    <h3>Sub titulo de la noticia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quod.</p>
+                    <img src="" alt="">
+                </div>
+            
+                <div>
+                    <h2>Titulo Noticia 2</h2>
+                    <h3>Sub titulo de la noticia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quod.</p>
+                    <img src="" alt="">
+                </div>
+            
+                <div>
+                    <h2>Titulo Noticia 3</h2>
+                    <h3>Sub titulo de la noticia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quod.</p>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <footer>
-        <h2>Vida y Obra del Dr. Guillermo Pablo Libenson</h2>
-        
-        <h3>Sigannos en nuestras Redes!</h3>
-        <li>
-            <a href="https://www.instagram.com/dr.libenson_vidayobra/" target="_blank" class="enlaces">Instagram</a>
-        </li> 
-        <li>  
-            <a href="https://www.facebook.com/guillermo.libenson" target="_blank" class="enlaces">Facebook</a>
-        </li> 
-        <h3>Derechos reservados.</h3>
+    <footer class="pie">
+        <h2 class="titulopie">Vida y Obra del Dr. Guillermo Pablo Libenson</h2>
+        <div class="redes">
+            <h3>Sigannos en nuestras Redes!</h3>
+            <ul>
+                <li>
+                    <a class="enlacespie" href="https://www.instagram.com/dr.libenson_vidayobra/" target="_blank">Instagram</a>
+                </li> 
+                <li>  
+                    <a class="enlacespie" href="https://www.facebook.com/guillermo.libenson" target="_blank">Facebook</a>
+                </li> 
+            </ul>
+        </div>
+        <h3 class="socalo">Derechos reservados. Pagina realizada por Sabrina Gianni.</h3>
     </footer>
    
 </body>
