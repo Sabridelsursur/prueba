@@ -38,6 +38,7 @@ ul{list-style: none;}
     font-size: 70px;
     font-weight: 900;
     color: black;
+    text-shadow: blanchedalmond;
 }
 
 .navegacion{
@@ -83,15 +84,15 @@ ul{list-style: none;}
 }
 
 .nuestros-servicios__titulo {
-    text-align: right;
+    text-align: center;
     font-size: 48px;
-    color: orange;
+    color:black;
     margin-bottom: 64px;
 }
 
 .servicios {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 10px;
     text-align: center;
 }
@@ -140,6 +141,7 @@ ul{list-style: none;}
 
 .parrafoBanner1 {
     font-weight: 100;
+    font-size: 20px;
     margin-bottom: 32px; /* Separar elemento utilizo margin */
     color: white;
     align-items: center;
@@ -159,52 +161,74 @@ ul{list-style: none;}
     padding-right: 10px;
 }
 
+.foto_orden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .foto{
-    width: 500px;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    max-width: 700px;
+    max-height: 600px;
+    background-color:black;
+    padding: 10px;
+
+}
+
+.texto_foto{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-right: 7px;
+    text-align: right;
 }
 
 .biografia{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
     text-align: justify;
+    color: cornsilk;
+    background-color: orangered;
+    margin: 10px;
+    padding: 20px;
 }
 
-.curriculum{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+.subtexto{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+.parrafo.bio{
+    margin: 10px;
+    padding: 25px;
+    font-size: 60px;
+    color: white;
+
 }
 
 .titulo_expo{
-    padding-top: 20px;
-    padding-bottom: 20px;
+font-size: 30px;
 }
 
 .texto_expo{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: justify;    
+    padding: 20px;
+    margin: 10px;
+}
+
+.parrafo_expo{
+font-size: 20px;
+background-color: chocolate;
+padding: 20px;
+margin: 20px;
 }
 
 .titulo_cuaderno{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 30px;
+
 }
 
 .texto_cuaderno{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: justify;
+    font-size: 20px;
 }
 
 .contacto{
@@ -215,50 +239,57 @@ ul{list-style: none;}
     text-align: justify; 
 }
 
-a{
-    color: antiquewhite;
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.redes{
+    display: flex;
+    flex-direction: row;
+    
+}
 
 .enlacespie{
     color: lavender;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px; 
+    font-size: 25px; 
     font-weight: 400;
+    background-color: rgb(175, 96, 0);
+    padding: 20px;
+    margin: 10px;
 }
 
-.pie{
-    background-color: black;
+.pie{    
+    background-color: rgb(175, 96, 0);
     color: lavender;
-    align-items: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 
 
 .titulopie{
     padding: 20px;
+    margin: 10px;
     font-weight: 400;
     font-size: x-large;
     background-color: rgb(175, 96, 0);
 }
 
-.redes{
-    background-color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-weight: 400;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: right; 
-    
+.servicio__icono-final {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
 }
 
-.socalo{
-    background-color: black;
-    font-weight: 100;
-    font-size:x-small;
-    text-align: center;
+a{
+    color: lavender;
+    text-decoration: none;
 }
 
 
