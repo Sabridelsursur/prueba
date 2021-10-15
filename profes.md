@@ -4,7 +4,7 @@ mi nombre es sabrina gianni, soy de comodoro rivadavia, tengo 31 años. me uni a
 
 PROFEEES
 La verdad voy entendiendo, aunque veo las clases en diferido, pero esta pagina tendria que arrancarla de nuevo porque ya se me hizo choclo de errores. 
-varias dudas: no me acuerdo como dar vuelta el box shadow para hacer una sombrita hacia arriba
-no se bien como poner el enlace de insta y face solo en el icono
+varias dudas: no me acuerdo como dar vuelta el box shadow para hacer una sombrita hacia arriba;
+no se bien como poner el enlace de insta y face solo en el icono;
 el cuadrito de "contacto" tiene doble boton enviar y no se porque, y tambien no se como derivar esas consultas a un mail.
 Les mando un abrazo y les agradezco la paciencia.
